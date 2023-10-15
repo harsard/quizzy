@@ -1,5 +1,3 @@
-// import 'package:flashcards_quiz/models/flutter_topics_model.dart';
-// import 'package:flashcards_quiz/views/flashcard_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:quizzy/models/flutter_topics_model.dart';
 import 'package:quizzy/views/flashcard_screen.dart';
@@ -42,7 +40,7 @@ class HomePage extends StatelessWidget {
                   text: TextSpan(
                     children: [
                       TextSpan(
-                        text: "Flutter ",
+                        text: "Funny ",
                         style:
                             Theme.of(context).textTheme.headlineSmall!.copyWith(
                                   fontSize: 21,
@@ -50,9 +48,9 @@ class HomePage extends StatelessWidget {
                                   fontWeight: FontWeight.w400,
                                 ),
                       ),
-                      for (var i = 0; i < "Riddles!!!".length; i++) ...[
+                      for (var i = 0; i < "Quizzy!!!".length; i++) ...[
                         TextSpan(
-                          text: "Riddles!!!"[i],
+                          text: "Quizzy!!!"[i],
                           style: Theme.of(context)
                               .textTheme
                               .headlineSmall!

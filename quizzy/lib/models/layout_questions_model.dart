@@ -46,104 +46,105 @@ class LayOutOption {
 
 final layOutQuestionsList = [
   LayOutQuestion(
-    text: "I control how widgets are placed vertically in a column. Who am I?",
+    text: "Who is often credited with discovering America in 1492 ?",
     options: [
-      const LayOutOption(text: "MainAxisAlignment", isCorrect: true),
-      const LayOutOption(text: "Row", isCorrect: false),
-      const LayOutOption(text: "CrossAxisAlignment", isCorrect: false),
-      const LayOutOption(text: "mainAxisSize", isCorrect: false),
+      const LayOutOption(text: "Christopher Columbus", isCorrect: true),
+      const LayOutOption(text: "Ferdinand Magellan", isCorrect: false),
+      const LayOutOption(text: "Marco Polo", isCorrect: false),
+      const LayOutOption(text: "Vasco da Gama", isCorrect: false),
     ],
     id: 0,
     correctAnswer:
-        const LayOutOption(text: "MainAxisAlignment", isCorrect: true),
+        const LayOutOption(text: "Christopher Columbus", isCorrect: true),
   ),
   LayOutQuestion(
-    text:
-        "I allow widgets to expand and contract based on available space. You'll always find me inside a Flex. Who am I?",
+    text: "In which year did World War II end ?",
     options: [
-      const LayOutOption(text: "Flexible ", isCorrect: true),
-      const LayOutOption(text: "Expanded", isCorrect: false),
-      const LayOutOption(text: "Flex", isCorrect: false),
-      const LayOutOption(text: "mainAxisSpacing", isCorrect: false),
+      const LayOutOption(text: "1945 ", isCorrect: true),
+      const LayOutOption(text: "1918", isCorrect: false),
+      const LayOutOption(text: "1939", isCorrect: false),
+      const LayOutOption(text: "1950", isCorrect: false),
     ],
     id: 1,
-    correctAnswer: const LayOutOption(text: "Flexible", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "1945", isCorrect: true),
   ),
 
   LayOutQuestion(
-    text:
-        "I create an invisible bounding box that controls my child's width and height. What am I?",
+    text: "Who was the first President of the United States ?",
     options: [
-      const LayOutOption(text: "Container ", isCorrect: true),
-      const LayOutOption(text: "SizedBox", isCorrect: false),
-      const LayOutOption(text: "Card", isCorrect: false),
-      const LayOutOption(text: "Row", isCorrect: false),
+      const LayOutOption(text: "Thomas Jefferson ", isCorrect: false),
+      const LayOutOption(text: "John Adams", isCorrect: false),
+      const LayOutOption(text: "Benjamin Franklin", isCorrect: false),
+      const LayOutOption(text: "George Washington", isCorrect: true),
     ],
     id: 2,
-    correctAnswer: const LayOutOption(text: "Container", isCorrect: true),
+    correctAnswer:
+        const LayOutOption(text: "George Washington", isCorrect: true),
   ),
 
   LayOutQuestion(
     text:
-        "I align my children widgets to the start or end of the row. Who am I?",
+        "Which ancient civilization is known for building the Great Wall of China ?",
     options: [
-      const LayOutOption(text: "SingleChildScrollView", isCorrect: false),
-      const LayOutOption(text: "crossAxisCount", isCorrect: false),
-      const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
-      const LayOutOption(text: "crossAxisSpacing", isCorrect: false),
+      const LayOutOption(text: "Roman Empire", isCorrect: false),
+      const LayOutOption(text: "Inca Empire", isCorrect: false),
+      const LayOutOption(text: "Chinese Empire ", isCorrect: false),
+      const LayOutOption(text: "Qin Dynasty", isCorrect: true),
     ],
     id: 3,
-    correctAnswer:
-        const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Qin Dynasty ", isCorrect: true),
   ),
   // other 4
   LayOutQuestion(
     text:
-        "I'm a widget that lets you precisely position children using x, y coordinates. Who am I?",
+        "The Magna Carta, signed in 1215, is often considered a foundational document for what ?",
     options: [
-      const LayOutOption(text: "Align", isCorrect: false),
-      const LayOutOption(text: "FittedBox", isCorrect: false),
-      const LayOutOption(text: "Postioned", isCorrect: false),
-      const LayOutOption(text: "Stack ", isCorrect: true),
+      const LayOutOption(text: "The Renaissance", isCorrect: false),
+      const LayOutOption(text: "Constitutional monarchy", isCorrect: true),
+      const LayOutOption(text: "Roman law", isCorrect: false),
+      const LayOutOption(text: "The Enlightenment ", isCorrect: false),
     ],
     id: 4,
-    correctAnswer: const LayOutOption(text: "Stack ", isCorrect: true),
+    correctAnswer:
+        const LayOutOption(text: "Constitutional monarchy ", isCorrect: true),
   ),
   LayOutQuestion(
-    text: "I'm a horizontal version of Column. Who am I?",
+    text:
+        "Who was the leader of the Soviet Union during the Cuban Missile Crisis ?",
     options: [
-      const LayOutOption(text: "Row ", isCorrect: true),
-      const LayOutOption(text: "Divider", isCorrect: false),
-      const LayOutOption(text: "Column", isCorrect: false),
-      const LayOutOption(text: "Stack", isCorrect: false),
+      const LayOutOption(text: "Vladimir Putin ", isCorrect: false),
+      const LayOutOption(text: "Joseph Stalin", isCorrect: false),
+      const LayOutOption(text: "Leon Trotsky", isCorrect: false),
+      const LayOutOption(text: "Nikita Khrushchev", isCorrect: true),
     ],
     id: 5,
-    correctAnswer: const LayOutOption(text: "Row", isCorrect: true),
+    correctAnswer:
+        const LayOutOption(text: "Nikita Khrushchev", isCorrect: true),
   ),
 
   LayOutQuestion(
     text:
-        "I align widgets to the top, bottom, center inside a Column. What am I?",
+        "What event is often considered the beginning of the Great Depression in the United States ?",
     options: [
-      const LayOutOption(text: "Row", isCorrect: false),
-      const LayOutOption(text: "Align", isCorrect: false),
-      const LayOutOption(text: "Spacer", isCorrect: false),
-      const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
+      const LayOutOption(text: "Stock Market Crash of 1929", isCorrect: true),
+      const LayOutOption(text: "Prohibition Era", isCorrect: false),
+      const LayOutOption(text: "Dust Bowl", isCorrect: false),
+      const LayOutOption(text: "Roaring Twenties ", isCorrect: false),
     ],
     id: 6,
-    correctAnswer:
-        const LayOutOption(text: "MainAxisAlignment ", isCorrect: true),
+    correctAnswer: const LayOutOption(
+        text: "Stock Market Crash of 1929 ", isCorrect: true),
   ),
   LayOutQuestion(
     text:
-        "I align my Row or Column children differently based on available space. Who am I?",
+        "Who was the Egyptian queen famous for her affairs with Julius Caesar and Mark Antony ?",
     options: [
-      const LayOutOption(text: "Expanded", isCorrect: false),
-      const LayOutOption(text: "Flex ", isCorrect: true),
-      const LayOutOption(text: "FittedBox", isCorrect: false),
-      const LayOutOption(text: "Wrap", isCorrect: false),
+      const LayOutOption(text: "Cleopatra", isCorrect: true),
+      const LayOutOption(text: "Nefertiti ", isCorrect: false),
+      const LayOutOption(text: "Hatshepsut", isCorrect: false),
+      const LayOutOption(text: "Isis", isCorrect: false),
     ],
     id: 7,
-    correctAnswer: const LayOutOption(text: "Scoped Model", isCorrect: true),
+    correctAnswer: const LayOutOption(text: "Cleopatra", isCorrect: true),
   ),
 ];

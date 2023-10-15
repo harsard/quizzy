@@ -1,4 +1,3 @@
-// import 'package:flashcards_quiz/widgets/results_card.dart';
 import 'package:flutter/material.dart';
 import 'package:quizzy/widgets/results_card.dart';
 
@@ -59,9 +58,9 @@ class ResultsScreen extends StatelessWidget {
                                 fontWeight: FontWeight.w400,
                               ),
                     ),
-                    for (var i = 0; i < "Riddles!!!".length; i++) ...[
+                    for (var i = 0; i < "Quizzy!!!".length; i++) ...[
                       TextSpan(
-                        text: "Riddles!!!"[i],
+                        text: "Quizzy!!!"[i],
                         style:
                             Theme.of(context).textTheme.headlineSmall!.copyWith(
                                   fontSize: 18 + i.toDouble(),
